@@ -7,7 +7,11 @@
 	background-color: grey;
 	box-shadow: 0.2em 0.2em 0 0.2em rgba(0,0,0,0.17);
 }
-
+.form_field{
+	display:flex;
+	justify-content: center;
+	gap: 12px;
+}
 .walletCard h3 {
 	margin-left:1em;
 	margin-bottom: 1em;
