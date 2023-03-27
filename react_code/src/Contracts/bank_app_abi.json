@@ -1,58 +1,42 @@
 [
 	{
-		"inputs": [],
-		"name": "createAcc",
-		"outputs": [
-			{
-				"internalType": "bool",
-				"name": "",
-				"type": "bool"
-			}
-		],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "deposit",
-		"outputs": [],
-		"stateMutability": "payable",
-		"type": "function"
-	},
-	{
 		"inputs": [
 			{
-				"internalType": "address payable",
-				"name": "reciever",
-				"type": "address"
+				"internalType": "uint256",
+				"name": "a",
+				"type": "uint256"
 			},
 			{
 				"internalType": "uint256",
-				"name": "transferAmount",
+				"name": "b",
 				"type": "uint256"
 			}
 		],
-		"name": "transferEther",
-		"outputs": [],
-		"stateMutability": "payable",
+		"name": "mul",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "pure",
 		"type": "function"
 	},
 	{
 		"inputs": [
 			{
 				"internalType": "uint256",
-				"name": "withdrawAmount",
+				"name": "a",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "b",
 				"type": "uint256"
 			}
 		],
-		"name": "withdraw",
-		"outputs": [],
-		"stateMutability": "payable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"name": "accountBalance",
+		"name": "sub",
 		"outputs": [
 			{
 				"internalType": "uint256",
@@ -60,20 +44,31 @@
 				"type": "uint256"
 			}
 		],
-		"stateMutability": "view",
+		"stateMutability": "pure",
 		"type": "function"
 	},
 	{
-		"inputs": [],
-		"name": "accountExists",
-		"outputs": [
+		"inputs": [
 			{
-				"internalType": "bool",
-				"name": "",
-				"type": "bool"
+				"internalType": "uint256",
+				"name": "a",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "b",
+				"type": "uint256"
 			}
 		],
-		"stateMutability": "view",
+		"name": "sum",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "pure",
 		"type": "function"
 	}
 ]
